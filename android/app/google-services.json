@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "607854099662",
+    "project_id": "data-mahasiswa-itelkom",
+    "storage_bucket": "data-mahasiswa-itelkom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607854099662:android:70b02b1b3b2226e2a1e49f",
+        "android_client_info": {
+          "package_name": "com.example.crud_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607854099662-5r7a7laglgb157qngdbhr3d7s30mpgqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtlYAvOlaVjrCgdIM7oukZjsYRPT_x0o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607854099662-5r7a7laglgb157qngdbhr3d7s30mpgqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
