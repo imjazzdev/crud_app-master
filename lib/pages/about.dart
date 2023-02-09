@@ -29,27 +29,57 @@ class _AboutPageState extends State<AboutPage> {
             padding: EdgeInsets.only(left: 20, right: 20),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text('Nama Kelompok',
                     style: Theme.of(context).textTheme.headline4),
-                Image.asset(
-                    'img/nisa.jpeg',
-                hight : 300,
-                width : 230)
-                Text('1. Annisa Nur Rufaida 20103007',
+                // CircleAvatar(
+                //   radius: 100,
+                //   child: Image.asset(
+                //     'assets/img/nisa.jpeg',
+                //     fit: BoxFit.cover,
+                //   ),
+                // ),
+
+                Container(
+                  height: 150,
+                  width: 150,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image.asset(
+                      'assets/img/nisa.jpeg',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+
+                Text('Annisa Nur Rufaida 20103007',
                     style: Theme.of(context).textTheme.headline6),
-                Image.asset(
-                  'img/ela.jpeg',
-                  hight : 300,
-                  width : 230,)
-                Text('2. Elaa Fauziyah Syafi\'i 20103021',
+                Container(
+                  height: 150,
+                  width: 150,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image.asset(
+                      'assets/img/ela.jpeg',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                Text('Elaa Fauziyah Syafi\'i 20103021',
                     style: Theme.of(context).textTheme.headline6),
-                Image.asset(
-                  'img/venita.jpg',
-                  hight : 300,
-                  width : 230)
-                Text('3. Ella Venita Alaya Pardede 20103022',
+                Container(
+                  height: 150,
+                  width: 150,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(50),
+                    child: Image.asset(
+                      'assets/img/venita.jpg',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                Text('Ella Venita Alaya Pardede 20103022',
                     style: Theme.of(context).textTheme.headline6),
               ],
             ),
